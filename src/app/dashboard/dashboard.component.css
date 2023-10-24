@@ -1,0 +1,21 @@
+.form-control {
+    border-radius: 0;
+}
+input::placeholder {
+    font-size: 0.90rem;
+    font-style: italic;
+  }
+  
+@media screen and (max-width: 720px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .d-flex button{
+        display: none;
+    }
+
+    .w-25 {
+        width: 75% !important;
+    }
+}
